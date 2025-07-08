@@ -28,7 +28,7 @@ loginBtn.addEventListener("click" , function(){
 function logIn() {
 
   if (loginCheck()) {
-    window.location.href="../pages/home.html"
+    window.location.href="pages/home.html"
 
   }
   else{
