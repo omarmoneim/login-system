@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>login system</title>
+    <link rel="stylesheet" href="../css/all.min.css" />
+    <link rel="stylesheet" href="../css/bootstrap.min.css" />
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <section>
+      <div class="container my-5  w-75">
+        <div class="inner text-center p-5  w-75 m-auto">
+
+          <h1 class="mb-4">Smart Login System</h1>
+
+          <input class="form-control mb-4" id="username" type="text" placeholder="Enter Your Name" aria-label="default input example">
+          <p id="userNameAlert" class="alert alert-danger text-start d-none" >You Must Write The Name between 3 and 20 Character like : Omar or Muhammad 
+            <br>(it doesn't include Numbers like: 3mar) </p>
+           
+          <input class="form-control mb-4" id="useremail" type="email" placeholder="Enter Your Email" aria-label="default input example">
+          <p id="userEmailAlert" class="alert alert-danger text-start d-none" > Your Email Mustn't Begin With Special Character like:(.@gmail.com or &@gmail.com etc... )  <br> Your Email Must include (@gmail or etc...) and end with (.com / .org / .edu  etc...)  </p>
+
+
+          <input class="form-control mb-2" id="userpassword" type="password" placeholder="Enter Password" aria-label="default input example">
+          <p id="userPasswordAlert" class="alert alert-danger text-start d-none" > Minimum eight characters, at least one letter, one number and one special character: </p>
+
+          <button type="button" id="signupBtn" class="btn btn-primary w-100 mt-3 mb-3 disabled" >SignUp</button>
+          <p class="text-white">Don’t have an account? <a href="../index.html" class="text-white">Sign In</a></p>
+
+        </div>
+      </div>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="../js/signup.js"></script>
+  </body>
+</html>
