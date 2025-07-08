@@ -15,6 +15,6 @@ logOut.addEventListener("click" , returnHome)
     
     function returnHome(){
     window.location.href='../index.html'
-    localStorage.removeItem("username")
+   // localStorage.removeItem("username")
 }
 
